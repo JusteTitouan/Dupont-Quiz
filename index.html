@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="alert">
+    <div class="alert-title">Congratulations!!</div>
+    You got them all right!
+  </div>
+  <form id="quiz-form">
+    <ol>
+      <li class="question-item">
+        <div>Quand est-ce qu'on mange ?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                <code>18h</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="true">
+                <code>19h</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                <code>20h</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                <code>21h</code>
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <li class="question-item">
+        <div>Lequel de ces films a été réalisé par Christopher Nolan?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Sixième sens
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Pulp Fiction
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="true">
+                Inception
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Y'a-t-il un pilote dans l'avion?
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <li class="question-item">
+        <div>Quelle est la surface du soleil ?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="true">
+                <code>6,087 x 1012 km2</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                <code>6,087 x 103 km2</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                <code>3,073 x 1012 km2</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                <code>3,073 x 103 km2</code>
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <li class="question-item">
+        <div>Comment s'appelle la mère de la maire de Paris ?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                <code>Françoise Hidalgo</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="true">
+                <code>Maria Aleu</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                <code>Valérie Perrier</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                <code>Fabienne Dupont</code>
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <li class="question-item">
+        <div>Comment avez vous trouvé ce quiz ?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="true">
+                <code>Excellent</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                <code>Bien</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                <code>Bof</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                <code>Médiocre</code>
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+    </ol>
+    <button type="button" onclick="result()">Check</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
